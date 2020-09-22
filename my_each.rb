@@ -7,10 +7,10 @@ def my_each(words)
       i += 1
     end
   else
-    puts "This block should not run!"
+    "This block should not run!"
   end
   words
 end
 my_each(["hi", "hello", "bye", "goodbye"]) do |word|
-  puts word
+  word
 end
